@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    margin: auto 0  ;
+}
+.section-block {
+    margin: 100px;
+
+    padding: 10px;
+}
+select {
+    font-size: 19px;
+    padding: 10px;
+}
+.active {
+    width: 500px;
+    font-size: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+}
